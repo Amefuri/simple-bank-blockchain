@@ -1,0 +1,1 @@
+export const bankContractAddress = "0x02AD47eA03feaBF3C4621B2950e0853D939C6F08";

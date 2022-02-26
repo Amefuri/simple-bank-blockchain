@@ -2,7 +2,6 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import Layout from "./components/Layout";
 import ConnectButton from "./components/ConnectButton";
-import Count from "./components/Count";
 import TotalBankValue from "./components/TotalBankValue";
 import TotalUserValue from "./components/TotalUserValue";
 import DepositButton from "./components/DepositButton";

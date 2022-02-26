@@ -1,4 +1,3 @@
-// Layout.tsx
 import { ReactNode } from "react";
 import { Flex } from "@chakra-ui/react";
 

@@ -6,16 +6,6 @@ import { bankContractAddress } from "../contracts"
 
 const bankContractInterface = new ethers.utils.Interface(bankContractAbi);
 
-export function useCount() {
-  const [users]: any = useContractCall({
-    abi: bankContractInterface,
-    address: bankContractAddress,
-    method: "users",
-    args: [],
-  }) ?? [];
-  return users;
-}
-
 export function useCheckBankBalance() {
     const { value, error } = useCall(bankContractAddress && {
         contract: new Contract(bankContractAddress, bankContractInterface),

@@ -9,3 +9,13 @@ Contract Address: 0x02AD47eA03feaBF3C4621B2950e0853D939C6F08 [ETH Kovan Test Net
 - User สามารถโอนเงินใน Bank ไปให้ User อื่นใน Bank
 - User เช็ค Balance ในบัญชีของตัวเอง
 - เช็คยอดเงินรวมของ Bank
+
+Installation
+------------
+
+```
+npm i @chakra-ui/react @emotion/react @emotion/styled @framer-motion @usedapp/core @ethersproject/units
+```
+```
+npm start
+```
